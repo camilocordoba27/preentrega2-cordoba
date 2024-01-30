@@ -13,19 +13,19 @@ const NavBar = () => {
                 <div className="col-md-10 d-flex align-items-center">
                     <ul className="nav">
                         <li className="nav-item">
-                            <NavLink className="nav-link text-dark fs-5" activeClassName= 'active' to={'/'}>Productos</NavLink>
+                            <NavLink className="nav-link text-dark fs-5" activeclassname= 'active' to={'/'}>Productos</NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink className="nav-link text-dark fs-5" activeClassName= 'active' to={'/category/hamburguesas'}>Hamburguesas</NavLink>
+                            <NavLink className="nav-link text-dark fs-5" activeclassname= 'active' to={'/category/hamburguesas'}>Hamburguesas</NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink className="nav-link text-dark fs-5" activeClassName= 'active' to={'/category/papas'}>Papas Fritas</NavLink>
+                            <NavLink className="nav-link text-dark fs-5" activeclassname= 'active' to={'/category/papas'}>Papas Fritas</NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink className="nav-link text-dark fs-5" activeClassName= 'active' to={'/category/bebidas'}>Bebidas</NavLink>
+                            <NavLink className="nav-link text-dark fs-5" activeclassname= 'active' to={'/category/bebidas'}>Bebidas</NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink className="nav-link text-dark fs-5" activeClassName= 'active' to={'/category/postres'}>Postres</NavLink>
+                            <NavLink className="nav-link text-dark fs-5" activeclassname= 'active' to={'/category/postres'}>Postres</NavLink>
                         </li>
                     </ul>
                 </div>
