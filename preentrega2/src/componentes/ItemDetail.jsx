@@ -1,3 +1,5 @@
+import ItemCount from './ItemCount'
+
 const ItemDetail = ({item}) => {
     return (
         <div className="container">
@@ -9,6 +11,7 @@ const ItemDetail = ({item}) => {
                     <h1>{item.title}</h1>
                     <p>{item.description}</p>
                     <p><b>${item.price}</b></p>
+                    <ItemCount stock={item.stock} />
                 </div>
             </div>
         </div>

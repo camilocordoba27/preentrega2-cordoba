@@ -1,5 +1,6 @@
 import Logo from './Logo'
 import CartWidget from './CartWidget'
+import { NavLink } from 'react-router-dom'
 
 
 const NavBar = () => {
@@ -12,19 +13,19 @@ const NavBar = () => {
                 <div className="col-md-10 d-flex align-items-center">
                     <ul className="nav">
                         <li className="nav-item">
-                            <a className="nav-link text-dark fs-5" href="#">Productos</a>
+                            <NavLink className="nav-link text-dark fs-5" activeClassName= 'active' to={'/'}>Productos</NavLink>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link text-dark fs-5" href="#">Hamburguesas</a>
+                            <NavLink className="nav-link text-dark fs-5" activeClassName= 'active' to={'/category/hamburguesas'}>Hamburguesas</NavLink>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link text-dark fs-5" href="#">Papas Fritas</a>
+                            <NavLink className="nav-link text-dark fs-5" activeClassName= 'active' to={'/category/papas'}>Papas Fritas</NavLink>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link text-dark fs-5" href="#">Bebidas</a>
+                            <NavLink className="nav-link text-dark fs-5" activeClassName= 'active' to={'/category/bebidas'}>Bebidas</NavLink>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link text-dark fs-5" href="#">Postres</a>
+                            <NavLink className="nav-link text-dark fs-5" activeClassName= 'active' to={'/category/postres'}>Postres</NavLink>
                         </li>
                     </ul>
                 </div>
